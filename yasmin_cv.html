@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Yasmin Kamal-Deen's Resume</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section class="heading">
+      <div class="headingContents">
+        <div class="myName">
+          <p id="fullName">Yasmin <b>Kamal-Deen</b></p>
+        </div>
+
+        <div class="occupation">
+          <p>Student</p>
+        </div>
+
+        <div class="contact">
+          <p id = address><b>Address</b> Accra, Ghana</p>
+          <p id = phone><b>Phone</b> +233 20 428 1222</p>
+          <p id = email><b>Email</b> yasmin.gbontaa@ashesi.edu.gh</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="resumeBody">
+      <p>Reliable employee seeking Software Engineering Intern position. Offering excellent communication and good judgment.</p>
+
+      <section>
+        <h4 class="bodyHeading">Skills</h4>
+        <hr>
+        <p>
+          <ul>
+            <li>Teamwork and Collaboration</li>
+            <li>Analytical and Critical Thinking</li>
+            <li>Multitasking abilities</li>
+            <li>Python</li>
+            <li>Product Development</li>
+          </ul>
+        </p>
+      </section>
+
+      <section>
+        <h4 class="bodyHeading">Education</h4>
+        <hr>
+        <p>
+          01/2021 - Current <b>Bachelor of Science: Computer Science</b>
+        </p>
+        <p>Ashesi University - Berekuso, Ghana</p>
+      </section>
+
+      <section>
+        <h4 class=bodyHeading>Projects</h4>
+        <hr>
+        <p><b>Rain alert</b></p>
+        <p><ul>
+          <li>Developed a Python application that sends automated text messages to users if there is a chance of rain</li>
+          <li>Gained experience using APIs</li>
+        </ul></p>
+
+        <p><b>Language Flashcards</b></p>
+        <p><ul>
+          <li>Developed a Python application that helps users learn English words in French </li>
+          <li>Gained experience in using the tkinter library to create graphical user interfaces</li>
+          <li>Gained experience with reading files using the pandas library</li>
+        </ul></p>
+
+        <p><b>Snake Game</b></p>
+        <p><ul>
+          <li>Developed a Python application where the computer plays the snake game</li>
+          <li>Researching search algorithms used in AI</li>
+          <li>Gained experience with using the turtle library to create simple graphical user interfaces</li>
+        </ul></p>
+      </section>
+    </section>
+
+  <script type="text/javascript">
+  function fillForm() {
+      var firstName = document.getElementById('firstName').value;
+      var middleName = document.getElementById('middleName').value;
+      var lastName = document.getElementById('lastName').value;
+      var formaddress = document.getElementById('formAddress').value;
+      var formphone = document.getElementById('formphone').value;
+      var formemail = document.getElementById('formemail').value;
+
+      var fullName = firstName + " " + middleName + " " + lastName
+      
+      document.getElementById("fullName").innerText = firstName;
+      document.getElementById("address").innerText = formAddress;
+      document.getElementById("phone").innerText = formphone;
+      document.getElementById("email").innerText = formemail;
+
+  }
+
+
+
+  </script>
+  </body>
+</html>

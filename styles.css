@@ -1,0 +1,67 @@
+.contact{
+  padding-top: 20px;
+}
+
+.formContents{
+  font: 36px "Century Gothic", sans-serif;
+  padding: 50px;
+}
+
+.form{
+  width: 345px;
+  height: 45px;
+  margin-left: 400px;
+  margin-bottom: 20px;
+}
+
+#changeButton{
+  color: grey;
+}
+
+
+
+.heading{
+  color: #FFFFFF;
+  background-color: #373D48;
+}
+
+.headingContents{
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.myName{
+  font: 36px "Century Gothic", sans-serif;
+  line-height: 0.1;
+}
+
+.occupation{
+  font: 16px "Century Gothic", sans-seri1;
+}
+
+.resumeBody{
+  text-indent: 40px;
+  background-color:#e3e2e1;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font: 14px "Century Gothic", sans-serif;
+}
+
+ul{
+  list-style-type:circle;
+  list-style-position: inside;
+}
+
+h4.bodyHeading{
+  font-size: 16px;
+  padding-top: 20px;
+  line-height: 0.005;
+}
+
+hr{
+  width: 1150px;
+  height: 2px;
+  background-color: #000000;
+  border: none;
+}
